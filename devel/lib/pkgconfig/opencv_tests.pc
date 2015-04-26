@@ -1,0 +1,8 @@
+prefix=/home/ghost/catkin_ws/devel
+
+Name: opencv_tests
+Description: Description of opencv_tests
+Version: 1.11.7
+Cflags: 
+Libs: -L/home/ghost/catkin_ws/devel/lib 
+Requires: 

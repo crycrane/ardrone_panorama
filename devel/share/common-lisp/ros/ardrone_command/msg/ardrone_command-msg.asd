@@ -1,0 +1,21 @@
+
+(cl:in-package :asdf)
+
+(defsystem "ardrone_command-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils )
+  :components ((:file "_package")
+    (:file "serialized_ardrone_command_part" :depends-on ("_package_serialized_ardrone_command_part"))
+    (:file "_package_serialized_ardrone_command_part" :depends-on ("_package"))
+    (:file "command_status_info" :depends-on ("_package_command_status_info"))
+    (:file "_package_command_status_info" :depends-on ("_package"))
+    (:file "altitude_control_state" :depends-on ("_package_altitude_control_state"))
+    (:file "_package_altitude_control_state" :depends-on ("_package"))
+    (:file "qr_code_state_info" :depends-on ("_package_qr_code_state_info"))
+    (:file "_package_qr_code_state_info" :depends-on ("_package"))
+    (:file "serialized_ardrone_command" :depends-on ("_package_serialized_ardrone_command"))
+    (:file "_package_serialized_ardrone_command" :depends-on ("_package"))
+    (:file "qr_go_to_point_control_info" :depends-on ("_package_qr_go_to_point_control_info"))
+    (:file "_package_qr_go_to_point_control_info" :depends-on ("_package"))
+    (:file "qr_orientation_control_info" :depends-on ("_package_qr_orientation_control_info"))
+    (:file "_package_qr_orientation_control_info" :depends-on ("_package"))
+  ))

@@ -1,0 +1,39 @@
+FILE(REMOVE_RECURSE
+  "CMakeFiles/opencv_apps_generate_messages_cpp"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/FaceArrayStamped.h"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/MomentArray.h"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/Line.h"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/Face.h"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/FlowStamped.h"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/Contour.h"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/RotatedRectStamped.h"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/ContourArray.h"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/ContourArrayStamped.h"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/Point2DStamped.h"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/FlowArray.h"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/Point2D.h"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/Circle.h"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/LineArray.h"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/Point2DArray.h"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/RotatedRectArrayStamped.h"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/CircleArray.h"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/Size.h"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/MomentArrayStamped.h"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/Flow.h"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/FaceArray.h"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/RotatedRect.h"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/Rect.h"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/LineArrayStamped.h"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/FlowArrayStamped.h"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/RectArrayStamped.h"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/RectArray.h"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/CircleArrayStamped.h"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/Point2DArrayStamped.h"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/RotatedRectArray.h"
+  "/home/ghost/catkin_ws/devel/include/opencv_apps/Moment.h"
+)
+
+# Per-language clean rules from dependency scanning.
+FOREACH(lang)
+  INCLUDE(CMakeFiles/opencv_apps_generate_messages_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

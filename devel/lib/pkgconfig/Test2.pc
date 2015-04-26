@@ -1,0 +1,8 @@
+prefix=/home/ghost/catkin_ws/devel
+
+Name: Test2
+Description: Description of Test2
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ghost/catkin_ws/devel/lib 
+Requires: message_runtime ardrone_autonomy ardrone_command

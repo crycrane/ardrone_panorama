@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "ardrone_command_test2")
+set(ardrone_command_test2_MAINTAINER "Charles West <crwest@ncsu.edu>")
+set(ardrone_command_test2_DEPRECATED "")
+set(ardrone_command_test2_VERSION "0.0.0")
+set(ardrone_command_test2_BUILD_DEPENDS "message_generation" "roscpp" "rospy" "std_msgs" "ardrone_autonomy" "cv_bridge" "sensor_msgs" "image_transport" "opencv2" "ardrone_command")
+set(ardrone_command_test2_RUN_DEPENDS "message_runtime" "roscpp" "rospy" "std_msgs" "ardrone_autonomy" "cv_bridge" "sensor_msgs" "image_transport" "opencv2" "ardrone_command")
+set(ardrone_command_test2_BUILDTOOL_DEPENDS "catkin")

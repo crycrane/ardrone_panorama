@@ -1,0 +1,2 @@
+ardrone_autonomy:ardrone_command:ardrone_command_test:ardrone_command_test2:vision_opencv/cv_bridge:vision_opencv/image_geometry:vision_opencv/opencv_apps:vision_opencv/opencv_tests:vision_opencv/vision_opencv
+-DCATKIN_DEVEL_PREFIX=/home/ghost/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ghost/catkin_ws/install -G Unix Makefiles

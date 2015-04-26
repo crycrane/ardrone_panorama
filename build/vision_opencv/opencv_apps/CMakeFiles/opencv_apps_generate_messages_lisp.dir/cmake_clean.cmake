@@ -1,0 +1,39 @@
+FILE(REMOVE_RECURSE
+  "CMakeFiles/opencv_apps_generate_messages_lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/FaceArrayStamped.lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/MomentArray.lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/Line.lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/Face.lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/FlowStamped.lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/Contour.lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/RotatedRectStamped.lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/ContourArray.lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/ContourArrayStamped.lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/Point2DStamped.lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/FlowArray.lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/Point2D.lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/Circle.lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/LineArray.lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/Point2DArray.lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/RotatedRectArrayStamped.lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/CircleArray.lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/Size.lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/MomentArrayStamped.lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/Flow.lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/FaceArray.lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/RotatedRect.lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/Rect.lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/LineArrayStamped.lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/FlowArrayStamped.lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/RectArrayStamped.lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/RectArray.lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/CircleArrayStamped.lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/Point2DArrayStamped.lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/RotatedRectArray.lisp"
+  "/home/ghost/catkin_ws/devel/share/common-lisp/ros/opencv_apps/msg/Moment.lisp"
+)
+
+# Per-language clean rules from dependency scanning.
+FOREACH(lang)
+  INCLUDE(CMakeFiles/opencv_apps_generate_messages_lisp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

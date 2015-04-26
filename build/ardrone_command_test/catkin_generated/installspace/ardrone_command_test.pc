@@ -1,0 +1,8 @@
+prefix=/home/ghost/catkin_ws/install
+
+Name: ardrone_command_test
+Description: Description of ardrone_command_test
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ghost/catkin_ws/install/lib 
+Requires: message_runtime ardrone_autonomy ardrone_command
